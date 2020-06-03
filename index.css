@@ -141,7 +141,7 @@ header p:last-child{
 
 }
 .fire p{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 23%;
     margin: 0 auto;
     margin-top: 1%;
@@ -157,7 +157,7 @@ header p:last-child{
 
 }
 .reserve p{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 30%;
     margin: 0 auto;
     padding: 0 4%;
@@ -171,7 +171,11 @@ header p:last-child{
 
 footer{
     background-color: #F9E7DC;
+    margin-top: 8%;
 }
 
 /* botnav styles */
 
+.botnav{
+    padding: 4% 0;
+}
