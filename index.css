@@ -145,3 +145,6 @@ header p:last-child{
     width: 23%;
     margin: 0 auto;
 }
+.fire p span{
+    font-weight: bold;
+}
