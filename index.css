@@ -144,7 +144,34 @@ header p:last-child{
     border: 2px solid green;
     width: 23%;
     margin: 0 auto;
+    margin-top: 1%;
 }
 .fire p span{
     font-weight: bold;
 }
+
+/* End of fire styles */
+/* Reserve section styles */
+
+.reserve img{
+
+}
+.reserve p{
+    border: 2px solid green;
+    width: 30%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.reserve p span{
+    font-weight: bold;
+}
+
+/* End of reserve section styles */
+/* Footer styles */
+
+footer{
+    background-color: #F9E7DC;
+}
+
+/* botnav styles */
+
