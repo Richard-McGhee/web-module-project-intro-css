@@ -108,7 +108,27 @@ h1{
 header p{
     font-size: 2.8rem;
     text-align: center;
+    margin-top: 2.5%;
+    word-spacing: 10px;
 }
 header p:last-child{
     margin-top: 2%;
+}
+
+/* End of header styles */
+/* Intro styles */
+
+.intro{
+    background-color: #DDB9A3;
+    padding: 2% 3%;
+    font-size: 2.8rem;
+    color: white;
+    margin: 2.5% 4%;
+    text-align: center;
+}
+.intro p{
+    margin: 0 auto;
+}
+.intro p:first-child{
+    margin-bottom: 2%;
 }
