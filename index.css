@@ -52,11 +52,48 @@ header{
     width: 100%;
 }
 
+.topnav{
+    width: 100%;
+    margin: 5% 0;
+    /* border: 2px solid darkgreen; */
+}
 nav a{
     text-decoration: none;
-    color: black;
+    color: white;
     display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px 0;
+    margin-left: 11%;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    width: 18%;
 }
-nav a:hover{
-    color: pink;
+nav a:first-child{
+    background-color: #FF764E;
+}
+nav a:first-child:hover{
+    background-color: #5ED3EB;
+    color: black;
+}
+
+nav a:nth-child(2){
+    background-color: #5ED3EB;
+}
+nav a:nth-child(2):hover{
+    background-color: #FFCD69;
+    color: black;
+}
+
+nav a:last-child{
+    background-color: #FFCD69;
+}
+nav a:last-child:hover{
+    background-color: #FF764E;
+    color: black;
+}
+
+h1{
+    font-size: 3.3rem;
 }
