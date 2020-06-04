@@ -1,0 +1,217 @@
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+html {
+    font-size: 62.5%;
+    word-spacing: 10px;
+    width:100%;
+}
+body{
+    font-size: 2rem;
+}
+
+/* font-family: 'Chelsea Market', cursive;
+font-family: 'Roboto Mono', monospace; */
+
+/* End of reset */
+
+/* Font declarations */
+header h1{
+    font-family: 'Chelsea Market', cursive;
+}
+
+.main footer{
+    font-family: 'Roboto Mono', monospace;
+}
+.main{
+    text-align: center;
+}
+
+/* Styling */
+
+header{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+/* topnav styles */
+
+.topnav{
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    /* border: 2px solid darkgreen; */
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px 0;
+    margin-left: 11%;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    width: 18%;
+}
+nav a:first-child{
+    background-color: #FF764E;
+}
+nav a:first-child:hover{
+    background-color: #5ED3EB;
+    color: black;
+}
+
+nav a:nth-child(2){
+    background-color: #5ED3EB;
+}
+nav a:nth-child(2):hover{
+    background-color: #FFCD69;
+    color: black;
+}
+
+nav a:last-child{
+    background-color: #FFCD69;
+}
+nav a:last-child:hover{
+    background-color: #FF764E;
+    color: black;
+}
+
+/* End of topnav styles */
+/* Header styles */
+.landing{
+    width: 100%;
+}
+.landing-img{
+    width: 30%;
+    display: inline-block;
+}
+.landing-text{
+    display: inline-block;
+    width: 68.8%;
+}
+h1{
+    font-size: 6.5rem;
+    text-align: center;
+}
+header img{
+    border-radius:50%;
+    width: 85%;
+    margin-left: 25%;
+}
+header p{
+    font-size: 2.6rem;
+    text-align: center;
+    margin-top: 2.5%;
+    
+}
+header p:last-child{
+    margin-top: 2%;
+}
+
+/* End of header styles */
+/* Intro styles */
+
+.intro{
+    background-color: #DDB9A3;
+    padding: 2% 3%;
+    font-size: 2.8rem;
+    color: white;
+    margin: 2.5% 4%;
+}
+.intro p{
+    margin: 0 auto;
+}
+.intro p:first-child{
+    margin-bottom: 2%;
+}
+
+/* End of intro styles */
+/* Fire section styles */
+
+.fire img{
+    /* border: 2px solid green; */
+    width: 12%;
+}
+.fire p{
+    /* border: 2px solid green; */
+    width: 23%;
+    margin: 0 auto;
+    margin-top: 1%;
+}
+.fire p span{
+    font-weight: bold;
+}
+
+/* End of fire styles */
+/* Reserve section styles */
+
+.reserve{
+    margin-top: 6%;
+}
+.reserve img{
+    /* border: 2px solid green; */
+    width: 12%;
+}
+.reserve p{
+    /* border: 2px solid green; */
+    width: 30%;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+.reserve p span{
+    font-weight: bold;
+}
+
+/* End of reserve section styles */
+/* Footer styles */
+
+footer{
+    background-color: #F9E7DC;
+    margin-top: 8%;
+}
+footer img{
+    width: 100%;
+    height: 45vh;
+}
+
+
+/* botnav styles */
+
+.botnav{
+    padding: 4% 0;
+}
+
+/* Potential Image styling for the header image
+
+img{
+    border-radius:50%;
+    width:25%;
+    margin:3%;
+} */
